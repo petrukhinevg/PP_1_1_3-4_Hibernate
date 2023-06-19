@@ -29,7 +29,6 @@ public class Main {
         userDao.saveUser(user.getName(), user.getLastName(), user.getAge());
         userDao.removeUserById(1);
         userDao.dropUsersTable();
-        userDao.close();
     }
 
 
